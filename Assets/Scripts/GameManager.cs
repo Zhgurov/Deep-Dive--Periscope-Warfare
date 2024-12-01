@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
         {
             panel.SetActive(true);
             images.SetActive(false);
-            panelTextMeshProUGUI.text = "DEFEAT! COLLECTED ARTIFACTS: " + statisticManager.GetArtifacts().ToString();
+            panelTextMeshProUGUI.text = "DEFEAT!\nCOLLECTED ARTIFACTS: " + statisticManager.GetArtifacts().ToString();
         }
     }
 }
